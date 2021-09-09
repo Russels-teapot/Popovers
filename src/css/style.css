@@ -1,0 +1,29 @@
+
+.toggleButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 8px 16px;
+    margin: 80px 80px;
+    font: 400 16px sans-serif;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #ff0000;
+}
+
+
+.popover {
+  position: absolute;
+  padding: 5px 10px;
+  width: 200px;
+  background-color: #808080;
+  font: 400 12px sans-serif;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.popover-hide {
+  display: none;
+}
